@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: white;
+  background-color: black;
+}
+
+.hero {
+  position: relative;
+  height: 100vh;
+  background: url("https://i.postimg.cc/jSDrrRBX/Wednesday-Netflix.jpg") no-repeat center center/cover;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  padding: 100px 50px;
+}
+
+.tags span, .genres span {
+  display: inline-block;
+  background: rgba(255,255,255,0.1);
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.imdb {
+  background: gold;
+  color: black;
+  font-weight: bold;
+}
+
+.description {
+  margin: 20px 0;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  margin-right: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.buttons button:hover{ background-color: rgb(132, 0, 255);}
+
+.play {
+  background: gold;
+  color: black;
+  font-weight: bold;
+}
+
+.like, .info {
+  background: rgba(255,255,255,0.2);
+  color: white;
+}
